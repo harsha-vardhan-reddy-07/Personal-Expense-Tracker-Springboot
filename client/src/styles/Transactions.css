@@ -1,0 +1,85 @@
+.transaction_page{
+
+}
+
+.transaction_page h3{
+
+}
+
+.transaction_page_head{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+.transaction_page_head p{
+    font-size: 1.2rem;
+    color: rgb(117, 118, 118);
+}
+
+.transactions{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    height: 72vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+
+.transaction{
+    display: flex;
+    align-items: center;
+    background-color: rgba(231, 237, 243, 0.813);
+    border: 1px solid rgb(214, 234, 246);
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 0.7rem;
+
+}
+
+.transaction_body{
+    display: flex;
+    align-items: center;
+}
+
+.transaction_icon_green{
+    font-size: 2rem;
+    margin-right: 10px;
+    color: rgb(93, 216, 93);
+}
+
+.transaction_icon_red{
+    font-size: 2rem;
+    margin-right: 10px;
+    color: rgb(232, 81, 81);
+}
+
+.transaction_data{
+    display: flex;
+    align-items: center ;
+    gap: 20px;
+
+}
+
+.transaction_data h4{
+    margin: 0;
+    font-size: 1.1rem;
+    color: rgb(77, 135, 169);
+}
+
+.transaction_data span{
+    display: flex;
+    gap: 2vw;
+}
+
+.transaction_data span p{
+    margin: 0;
+    font-size: 0.9rem;
+    color: rgb(85, 86, 87);
+}
+
+
+

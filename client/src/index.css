@@ -1,0 +1,32 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Anta", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.page{
+  display: flex;
+  height: 100vh;
+  background-color: #f8f9fa;
+  justify-content: space-evenly;
+  padding: 1.3vw 0;
+}
+
+.general_page{
+
+  width: 78%;
+  background-color: rgb(236, 251, 246);
+  border-radius: 0.6rem;
+  padding: 3vh 1.5vw;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}

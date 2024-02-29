@@ -1,0 +1,49 @@
+.landing_page{
+    min-height: 100vh;
+}
+
+.landing_hero{
+    height: 100vh;
+    background-image: url('../images/landing_bg.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.landing_hero h1{
+    font-size: 4rem;
+    color: #efe6f1;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 700;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 20vh;
+}
+.landing_hero p{
+    font-size: 1rem;
+    color: #e2dfdf;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    width: 60%;
+    margin-left: 20%;
+}
+.landing_page button{
+    margin-top: 5vh;
+    width: 12%;
+    margin-left: 44%;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-family: "Anta", sans-serif;
+    font-weight: 700;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    color: #3d3d3d;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.landing_page button:hover{
+    background-color: #3d3d3d;
+    color: #f5f5f5;
+}

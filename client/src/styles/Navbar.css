@@ -1,0 +1,89 @@
+.nav_container{
+    width: 18%;
+    background-color: rgb(236, 251, 246);
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vh 1.5vw;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.navbar_profile{
+
+    display: flex;
+    align-items: center;
+}
+
+.navbar_profile img{
+
+    width: 50px;
+    height: 50px;
+}
+
+.navbar_profile span{
+
+
+}
+
+.navbar_profile span h3{
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: "Anta", sans-serif;
+    color: rgb(66, 111, 161);
+}
+
+.navbar_profile span p{
+
+    margin: 0;
+    font-size: 0.7rem;
+    color: rgb(82, 125, 174);
+}
+
+
+.navbar_options{
+    margin-top: 4vh;
+}
+
+.navbar_options span{
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    gap: 5px;
+    color: rgb(103, 105, 108);
+    transition: all ease 0.4s;
+}
+
+.navbar_options span .nav_icon{
+   
+}
+
+
+.navbar_options span p{
+   font-size: 0.9rem;
+   margin: 0;
+}
+
+.navbar_options span:hover{
+    cursor: pointer;
+    color: rgb(58, 57, 57);
+    transform: translateX(5px);
+    transition: all ease 0.4s;
+}
+
+.navbar_options .active{
+    padding-left: 0.6vw;   
+    border-left: 2px solid rgb(37, 36, 36);
+    color: rgb(37, 36, 36);
+}
+
+.nav_bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 4vh;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav_bottom p{
+    margin: 0;
+}
